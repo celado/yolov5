@@ -3,7 +3,7 @@ name: "deploy"
 env:
   SSH_USER: dronaidemo
   SSH_HOST: 104.248.246.102
-  REPO_DIR: yolo
+  REPO_DIR: yolov5
   SSH_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
 
 on:
