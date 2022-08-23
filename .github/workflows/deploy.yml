@@ -25,3 +25,4 @@ jobs:
           chmod 600 ~/.ssh/id_github
           rsync -hrW -e "ssh -i ~/.ssh/id_github -o StrictHostKeyChecking=no" . $SSH_USER@$SSH_HOST:~/$REPO_DIR
           rm ~/.ssh/id_github
+
