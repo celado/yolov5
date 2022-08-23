@@ -1,0 +1,13 @@
+[Unit]
+Description=Yolov5
+After=network.target
+
+[Service]
+ExecStart=/bin/python3 /home/dronaidemo/yolov5/api.py
+User=dronaidemo
+Group=dronaidemo
+Restart=always
+WorkingDirectory=/home/dronaidemo/yolov5
+
+[Install]
+WantedBy=multi-user.target
