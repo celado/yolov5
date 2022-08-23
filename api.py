@@ -82,3 +82,4 @@ async def create_upload_files(files: List[UploadFile]):
 
 if __name__ == '__main__':
     uvicorn.run(app_api, host='0.0.0.0', port=8003)
+
